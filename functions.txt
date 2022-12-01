@@ -1,0 +1,27 @@
+def control_logic(sim):
+
+	Purpose: This function should implement the control logic for the given problem statement. You are required to make the robot follow the line to cover all the checkpoints and deliver packages at the correct locations.
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: None
+
+	Example call: control_logic(sim)
+
+
+
+def read_qr_code(sim):
+
+	Purpose: This function detects the QR code present in the camera's field of view and returns the message encoded into it.
+
+	Input Arguments: `sim`    :   [ object ]
+				ZeroMQ RemoteAPI object
+
+	Returns: `qr_message`   :    [ string ]
+		    QR message retrieved from reading QR code
+
+	Example call: control_logic(sim)
+
+
+
